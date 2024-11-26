@@ -96,6 +96,7 @@ section {
   background-image: url(img/Hamburger.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: none;
 }
 
 /* FOOTER */
@@ -105,6 +106,6 @@ footer {
 }
 /*work in progress*/
 @media {
-  width: 721px;
+  max-width: 721px;
   display: hiddenBurger;
 }
