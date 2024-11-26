@@ -22,10 +22,7 @@ header {
   border-radius: 50%;
 }
 
-.hamburger {
-  height: 26px;
-  width: 26px;
-}
+
 
 ul {
   display: flex;
@@ -76,8 +73,16 @@ section {
 }
 
 .hamburgerIcon {
-  height: 26px;
-  width: 26px;
+  height: 100px;
+  width: 100px;
+}
+
+.hamburger {
+  height: 100px;
+  width: 100px;
+  background-image: url(img/Hamburger.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /* FOOTER */

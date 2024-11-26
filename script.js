@@ -60,7 +60,7 @@ console.log(squareBlueShowImg, squareBlueButton);
 
 const squareBlueImg = document.createElement("img");
 
-squareBlueImg.src = "Hamburger.jpg"; 
+squareBlueImg.src = "img/Hamburger.jpg"; 
 squareBlueImg.alt = "Hamburger icon"; 
 
 squareBlueImg.classList.add("hidden");
