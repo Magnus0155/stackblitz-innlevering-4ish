@@ -4,20 +4,37 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+      <div class="headerLogo">KL</div>
+      <nav>
+        <ul>
+          <li>Nav 1</li>
+          <li>Nav 2</li>
+          <li>Nav 3</li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1>Home page</h1>
+      <section>
+        <!-- Green Square -->
+        <div id="squareGreenHide" class="square green"></div>
+        <button id="squareGreenButton" class="button">Hide Green Square</button>
+
+        <!-- Red Square -->
+        <div id="squareRedShowText" class="square red"></div>
+        <button id="squareRedButton" class="button">Show Text in Red Square</button>
+
+        <!-- Blue Square -->
+        <div id="squareBlueShowImg" class="square blue"></div>
+        <button id="squareBlueButton" class="button">Show Image in Blue Square</button>
+      </section>
     </main>
+    <footer>
+      <p>Laget av *</p>
+    </footer>
   </body>
 </html>
