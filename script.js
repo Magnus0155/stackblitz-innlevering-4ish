@@ -75,7 +75,7 @@ squareBlueButton.addEventListener("click", function () {
     
     squareBlueImg.classList.toggle("hidden");
 });
-//nytt//
+//nytt //
 const button = document.getElementById('squareHamburgerButton');
 const hamburgerImg = document.getElementById('squareHamburgerImg');
 button.addEventListener('click', function() {
