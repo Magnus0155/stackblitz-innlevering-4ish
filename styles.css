@@ -104,8 +104,9 @@ footer {
   display: flex;
   justify-content: center;
 }
-/*work in progress*/
-@media {
-  max-width: 721px;
-  display: hiddenBurger;
+
+@media (max-width: 601px) {
+  .hiddenBurger {
+    display: block; 
+  }
 }
